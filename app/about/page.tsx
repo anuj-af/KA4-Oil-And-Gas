@@ -339,68 +339,6 @@ export default function AboutPage() {
           </div>
         </div>
       </section>
-
-      {/* Timeline */}
-      <section className="py-20 px-6 bg-muted/30">
-        <div className="max-w-4xl mx-auto">
-          <motion.h2
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8 }}
-            viewport={{ once: true }}
-            className="text-4xl md:text-5xl font-light text-center mb-16"
-          >
-            Our Journey
-          </motion.h2>
-
-          <div className="space-y-12">
-            {[
-              {
-                year: "1970",
-                title: "Foundation",
-                description: "KA4 Oil and Gas Company was founded with a vision to revolutionize the energy sector.",
-              },
-              {
-                year: "1985",
-                title: "Global Expansion",
-                description: "Expanded operations to three continents, establishing key partnerships worldwide.",
-              },
-              {
-                year: "2000",
-                title: "Technology Innovation",
-                description: "Launched our first sustainable energy initiative and advanced drilling technologies.",
-              },
-              {
-                year: "2015",
-                title: "Carbon Neutral Commitment",
-                description: "Committed to achieving carbon neutrality by 2030 across all operations.",
-              },
-              {
-                year: "2024",
-                title: "Future Forward",
-                description: "Leading the industry in renewable energy integration and sustainable practices.",
-              },
-            ].map((milestone, index) => (
-              <motion.div
-                key={index}
-                initial={{ opacity: 0, x: index % 2 === 0 ? -50 : 50 }}
-                whileInView={{ opacity: 1, x: 0 }}
-                transition={{ duration: 0.8, delay: index * 0.1 }}
-                viewport={{ once: true }}
-                className={`flex items-center gap-8 ${index % 2 === 1 ? "flex-row-reverse" : ""}`}
-              >
-                <div className="flex-1">
-                  <div className="text-sm text-muted-foreground mb-2">{milestone.year}</div>
-                  <h3 className="text-2xl font-light mb-3">{milestone.title}</h3>
-                  <p className="text-muted-foreground leading-relaxed">{milestone.description}</p>
-                </div>
-                <div className="w-4 h-4 bg-primary rounded-full flex-shrink-0"></div>
-              </motion.div>
-            ))}
-          </div>
-        </div>
-      </section>
-
       <Footer />
     </main>
   )
