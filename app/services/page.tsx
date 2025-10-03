@@ -5,8 +5,12 @@ import { Footer } from "@/components/footer"
 import { motion } from "framer-motion"
 import Image from "next/image"
 import { ArrowRight } from "lucide-react"
+import { useState } from "react"
+import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog"
 
 export default function ServicesPage() {
+  const [selectedService, setSelectedService] = useState<number | null>(null)
+
   const services = [
     {
       title: "Passive Fire Proofing",
@@ -176,6 +180,7 @@ export default function ServicesPage() {
 
                   <motion.button
                     whileHover={{ x: 5 }}
+                    onClick={() => setSelectedService(index)}
                     className="flex items-center gap-2 text-primary hover:text-primary/80 transition-colors"
                   >
                     Learn More <ArrowRight size={16} />
@@ -229,6 +234,51 @@ export default function ServicesPage() {
       </section>
 
       <Footer />
+      {/* Modal Dialog for Service Details */}
+      <Dialog open={selectedService !== null} onOpenChange={() => setSelectedService(null)}>
+        <DialogContent className="!w-[90vw] !max-w-none max-h-[90vh] overflow-y-auto">
+          {selectedService !== null && (
+            <>
+              <DialogHeader>
+                <DialogTitle className="text-4xl font-light mb-4">{services[selectedService].title}</DialogTitle>
+              </DialogHeader>
+
+              <div className="space-y-6">
+                <div className="relative h-80 rounded-lg overflow-hidden">
+                  <Image
+                    src={services[selectedService].image || "/placeholder.svg"}
+                    alt={services[selectedService].title}
+                    fill
+                    className="object-cover grayscale"
+                  />
+                </div>
+
+                <div className="space-y-4">
+                  <p className="text-lg leading-relaxed text-muted-foreground">
+                    {services[selectedService].description}
+                  </p>
+
+                  <div className="pt-6">
+                    <h3 className="text-2xl font-light mb-4">Core Capabilities</h3>
+                  </div>
+
+                  <div className="pt-6 border-t border-border">
+                    <h3 className="text-2xl font-light mb-4">Key Features</h3>
+                    <div className="grid md:grid-cols-2 gap-4">
+                      {services[selectedService].features.map((feature, idx) => (
+                        <div key={idx} className="flex items-center gap-3 p-4 bg-muted/30 rounded-lg">
+                          <div className="w-3 h-3 bg-primary rounded-full"></div>
+                          <span className="font-medium">{feature}</span>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </>
+          )}
+        </DialogContent>
+      </Dialog>
     </main>
   )
 }

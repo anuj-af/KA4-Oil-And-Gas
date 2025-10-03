@@ -5,9 +5,12 @@ import { Footer } from "@/components/footer"
 import { motion } from "framer-motion"
 import Image from "next/image"
 import { useState } from "react"
+import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog"
+import { MapPin, Calendar, TrendingUp } from "lucide-react"
 
 export default function PortfolioPage() {
   const [activeFilter, setActiveFilter] = useState("all")
+  const [selectedProject, setSelectedProject] = useState<number | null>(null)
 
   const filters = [
     { id: "all", label: "All Markets" },
@@ -198,7 +201,7 @@ export default function PortfolioPage() {
       <section className="pt-32 pb-20 px-6">
         <div className="max-w-6xl mx-auto text-center">
           <motion.div initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8 }}>
-            <h1 className="text-6xl md:text-8xl font-light mb-6 text-balance">Our Portfolio</h1>
+            <h1 className="text-6xl md:text-8xl font-light mb-6 text-balance">Our Markets</h1>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
               Showcasing our most significant projects across exploration, production, refining, and renewable energy
               initiatives worldwide.
@@ -246,6 +249,7 @@ export default function PortfolioPage() {
                 exit={{ opacity: 0, scale: 0.9 }}
                 transition={{ duration: 0.6, delay: index * 0.1 }}
                 className="group cursor-pointer"
+                onClick={() => setSelectedProject(projects.indexOf(project))}
               >
                 <div className="bg-card rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500">
                   <div className="relative h-64 overflow-hidden">
@@ -322,8 +326,69 @@ export default function PortfolioPage() {
           </div>
         </div>
       </section>
-
       <Footer />
+
+      <Dialog open={selectedProject !== null} onOpenChange={() => setSelectedProject(null)}>
+        <DialogContent className="!w-[90vw] !max-w-none  max-h-[90vh] overflow-y-auto">
+          {selectedProject !== null && (
+            <>
+              <DialogHeader>
+                <DialogTitle className="text-4xl font-light mb-2">{projects[selectedProject].title}</DialogTitle>
+                <div className="flex items-center gap-6 text-muted-foreground">
+                  <div className="flex items-center gap-2">
+                    <MapPin size={16} />
+                    <span>{projects[selectedProject].location}</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <Calendar size={16} />
+                    <span>{projects[selectedProject].year}</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <TrendingUp size={16} />
+                    <span className="capitalize">{projects[selectedProject].category}</span>
+                  </div>
+                </div>
+              </DialogHeader>
+
+              <div className="space-y-6 mt-6">
+                <div className="relative h-96 rounded-lg overflow-hidden">
+                  <Image
+                    src={projects[selectedProject].image || "/placeholder.svg"}
+                    alt={projects[selectedProject].title}
+                    fill
+                    className="object-cover grayscale"
+                  />
+                </div>
+
+                <div className="space-y-4">
+                  <h3 className="text-2xl font-light">Project Overview</h3>
+                  <p className="text-lg leading-relaxed text-muted-foreground">
+                    {projects[selectedProject].description}
+                  </p>
+                </div>
+
+                <div className="space-y-4">
+                  <h3 className="text-2xl font-light">Key Highlights</h3>
+                  <div className="grid gap-3">
+                    {projects[selectedProject].highlights.map((highlight, idx) => (
+                      <motion.div
+                        key={idx}
+                        initial={{ opacity: 0, x: -20 }}
+                        animate={{ opacity: 1, x: 0 }}
+                        transition={{ duration: 0.4, delay: idx * 0.05 }}
+                        className="flex items-start gap-3 p-4 bg-muted/30 rounded-lg"
+                      >
+                        <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
+                        <span className="leading-relaxed">{highlight}</span>
+                      </motion.div>
+                    ))}
+                  </div>
+                </div>
+              </div>
+            </>
+          )}
+        </DialogContent>
+      </Dialog>
     </main>
   )
 }
