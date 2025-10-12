@@ -11,14 +11,13 @@ import Autoplay from "embla-carousel-autoplay"
 const autoplay = Autoplay({
   delay: 5000,
   stopOnInteraction: false,
-  stopOnMouseEnter: true,
 })
 
 export function HeroSection() {
   return (
     <section id="home" className="mt-16 md:mt-0 relative h-100 md:min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background Slider */}
-      <div className="absolute inset-0 z-0">
+      <div className="absolute inset-0 z-0 pointer-events-none">
         <Carousel
           // embla options: loop and better alignment to minimize gaps/artifacts
           opts={{
@@ -33,12 +32,11 @@ export function HeroSection() {
           {/* Make content a flex container so slides sit flush next to each other */}
           <CarouselContent className="h-full flex">
             {[
-              "/banners/1.jpg",
-              "/banners/2.jpg",
-              "/banners/3.png",
-              "/banners/4.jpeg",
-              "/banners/5.jpeg",
-              "/banners/6.jpeg"
+              "/banners/8.jpg",
+              "/banners/9.jpg",
+              "/banners/10.webp",
+              "/banners/11.jpg",
+              "/banners/12.jpg"
             ].map((src, idx) => (
               // Ensure each slide is non-flexible and full width to remove gaps
               <CarouselItem key={src} className="h-full flex-none w-full">
@@ -52,7 +50,7 @@ export function HeroSection() {
                   src={src}
                   alt={`Hero image ${idx + 1}`}
                   // IMPORTANT: make img a block element (removes inline-image gaps) and object-cover
-                  className="block w-full h-[70vh] md:h-screen object-cover grayscale"
+                  className="block w-full h-[70vh] md:h-screen object-cover grayscale hover:grayscale-0 transition-all duration-700 pointer-events-auto"
                 />
               </CarouselItem>
             ))}
@@ -86,7 +84,7 @@ export function HeroSection() {
             transition={{ duration: 0.8, delay: 0.7 }}
             className="text-xl md:text-2xl text-white/90 mb-8 max-w-2xl mx-auto leading-relaxed text-pretty"
           >
-            Powering the future through innovative energy solutions and sustainable industrial excellence
+            Empowering Potential. Delivering Performance.
           </motion.p>
 
           <motion.div

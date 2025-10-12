@@ -21,7 +21,7 @@ export default function AboutPage() {
           >
             <h1 className="text-6xl md:text-8xl font-light mb-6 text-balance">Our Story</h1>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-              For over five decades, KA4 Oil and Gas Company has been at the forefront of energy innovation, transforming how the
+              For over five decades, KA4 Oil & Gas Services LLC has been at the forefront of energy innovation, transforming how the
               world powers its future through sustainable practices and cutting-edge technology.
             </p>
           </motion.div>

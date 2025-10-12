@@ -4,7 +4,6 @@ import { Footer } from "@/components/footer"
 import { WhoAreWeSection } from "@/components/who-are-we"
 import { ServicesSection } from "@/components/services-section"
 import { PortfolioSection } from "@/components/portfolio-section"
-import { JourneySection } from "@/components/our-journey"
 
 export default function Home() {
   return (
@@ -14,7 +13,6 @@ export default function Home() {
       <WhoAreWeSection />
       <ServicesSection />
       <PortfolioSection />
-      <JourneySection />
       <Footer />
     </main>
   )

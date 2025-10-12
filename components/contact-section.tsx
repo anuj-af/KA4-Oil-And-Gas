@@ -13,7 +13,7 @@ export function ContactSection() {
               Let's Discuss Your Energy Needs
             </h3>
             <p className="text-lg text-muted-foreground mb-8 leading-relaxed text-pretty">
-              Ready to explore how KA4 Oil and Gas Company can power your next project? Our team of experts is here to provide
+              Ready to explore how KA4 Oil & Gas Services LLC can power your next project? Our team of experts is here to provide
               tailored solutions for your unique requirements.
             </p>
 

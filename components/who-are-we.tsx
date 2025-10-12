@@ -20,7 +20,7 @@ export function WhoAreWeSection() {
 
             <div className="max-w-3xl text-pretty leading-relaxed text-foreground/80 space-y-6">
               <p className="font-serif text-lg md:text-xl">
-                "KA4 Oil and Gas Company" specialises in providing comprehensive solutions for the energy and industrial
+                "KA4 Oil & Gas Services LLC" specialises in providing comprehensive solutions for the energy and industrial
                 sectors.
               </p>
               <p className="font-serif text-lg md:text-xl">

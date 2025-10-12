@@ -125,6 +125,19 @@ export default function ServicesPage() {
         "Round ceiling diffuser with VCD"
       ],
       image: "/services/service7.jpg"
+    },
+    {
+      "title": "Formwork",
+      "description": "Our steel panel formwork system is engineered for high-volume, repetitive concrete casting projects, providing exceptional durability and a superior finish. The modular design ensures speed and dimensional consistency for all vertical elements.",
+      "features": [
+        "High-strength steel frame with a durable, integrated forming face (e.g., phenolic plywood or polymer)",
+        "Withstands lateral concrete pressure up to 60 kN/m² for walls and 80 kN/m² for columns",
+        "Quick-locking clamps and standardized accessories for rapid assembly and stripping",
+        "Delivers high-quality, smooth surface finish, often eliminating the need for plastering",
+        "Designed for 100+ reuses with minimal maintenance for lowest long-term cost per pour",
+        "Perfect for high-rise cores, shear walls, retaining walls, basements, and commercial structures"
+      ],
+      "image": "/services/service1.jpg"
     }
   ];
 
@@ -210,7 +223,7 @@ export default function ServicesPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 px-6 bg-primary text-primary-foreground">
+      {/* <section className="py-20 px-6 bg-primary text-primary-foreground">
         <div className="max-w-4xl mx-auto text-center">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -231,7 +244,7 @@ export default function ServicesPage() {
             </motion.button>
           </motion.div>
         </div>
-      </section>
+      </section> */}
 
       <Footer />
       {/* Modal Dialog for Service Details */}

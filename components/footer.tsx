@@ -16,7 +16,7 @@ export function Footer() {
             viewport={{ once: true }}
             className="md:col-span-2"
           >
-            <h3 className="text-2xl font-light mb-4">KA4 Oil and Gas Company</h3>
+            <h3 className="text-2xl font-light mb-4">KA4 Oil & Gas Services LLC</h3>
             <p className="text-primary-foreground/80 mb-6 max-w-md leading-relaxed">
               Leading the energy industry with innovative solutions, sustainable practices, and unwavering commitment to
               excellence.
@@ -29,11 +29,11 @@ export function Footer() {
               </div>
               <div className="flex items-center gap-3">
                 <Phone className="w-4 h-4" />
-                <span className="text-sm text-primary-foreground/80">+1 (800) KA4 Oil and Gas Company</span>
+                <span className="text-sm text-primary-foreground/80">+971 544588455</span>
               </div>
               <div className="flex items-center gap-3">
                 <Mail className="w-4 h-4" />
-                <span className="text-sm text-primary-foreground/80">info@ka4energy.com</span>
+                <span className="text-sm text-primary-foreground/80">info@ka4oilandgas.com</span>
               </div>
             </div>
           </motion.div>
@@ -48,22 +48,22 @@ export function Footer() {
             <ul className="space-y-2 text-primary-foreground/80">
               <li>
                 <Link href="/services" className="hover:text-primary-foreground transition-colors">
-                  Oil Exploration
+                  Passive Fire Proofing
                 </Link>
               </li>
               <li>
                 <Link href="/services" className="hover:text-primary-foreground transition-colors">
-                  Refinery Operations
+                  Blasting & Painting
                 </Link>
               </li>
               <li>
                 <Link href="/services" className="hover:text-primary-foreground transition-colors">
-                  Energy Distribution
+                  Scaffolding
                 </Link>
               </li>
               <li>
                 <Link href="/services" className="hover:text-primary-foreground transition-colors">
-                  Sustainable Solutions
+                  All Services
                 </Link>
               </li>
             </ul>
@@ -108,7 +108,7 @@ export function Footer() {
           viewport={{ once: true }}
           className="border-t border-primary-foreground/20 mt-12 pt-8 text-center"
         >
-          <p className="text-primary-foreground/60">© 2024 KA4 Oil and Gas Company. All rights reserved.</p>
+          <p className="text-primary-foreground/60">© 2025 KA4 Oil & Gas Services LLC. All rights reserved.</p>
         </motion.div>
       </div>
     </footer>
