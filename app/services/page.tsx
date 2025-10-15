@@ -74,7 +74,7 @@ export default function ServicesPage() {
         "Full design & drawing support",
         "Material supply and on-site installation"
       ],
-      image: "/services/service4.jpg"
+      image: "/services/service4.jpeg"
     },
     {
       title: "Pipeline Wrapping (Cold Tape Wrapping)",
@@ -137,7 +137,7 @@ export default function ServicesPage() {
         "Designed for 100+ reuses with minimal maintenance for lowest long-term cost per pour",
         "Perfect for high-rise cores, shear walls, retaining walls, basements, and commercial structures"
       ],
-      "image": "/services/service1.jpg"
+      "image": "/services/service8.jpg"
     }
   ];
 

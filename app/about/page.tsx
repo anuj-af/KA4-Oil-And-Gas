@@ -94,18 +94,18 @@ export default function AboutPage() {
       <section className="py-20 px-6">
         <div className="max-w-6xl mx-auto">
           <div className="grid md:grid-cols-2 gap-16 items-center">
-                        <motion.div
+              <motion.div
               initial={{ opacity: 0, x: 50 }}
               whileInView={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.8, delay: 0.2 }}
               viewport={{ once: true }}
-              className="relative h-96 rounded-lg overflow-hidden shadow-2xl order-2 md:order-none"
+              className="relative h-100 w-100 rounded-lg overflow-hidden shadow-2xl order-2 md:order-none"
             >
               <Image
-                src="/professional-business-portrait-black-and-white.jpg"
+                src="/KA4.png"
                 alt="Modern oil refinery"
                 fill
-                className="object-cover grayscale hover:grayscale-0 transition-all duration-700"
+                className="grayscale hover:grayscale-0 transition-all duration-700"
               />
             </motion.div>
 

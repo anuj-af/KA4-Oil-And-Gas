@@ -9,7 +9,7 @@ import Autoplay from "embla-carousel-autoplay"
 
 // Create the autoplay plugin instance outside of JSX (prevents runtime/TS issues)
 const autoplay = Autoplay({
-  delay: 5000,
+  delay: 7000,
   stopOnInteraction: false,
 })
 
@@ -46,11 +46,11 @@ export function HeroSection() {
                   initial={{ scale: 1.06, opacity: 0 }}
                   animate={{ scale: 1, opacity: 1 }}
                   exit={{ opacity: 0 }}
-                  transition={{ duration: 1.2, ease: [0.22, 1, 0.36, 1] }} // easeOut-like curve
+                  transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }} // easeOut-like curve
                   src={src}
                   alt={`Hero image ${idx + 1}`}
                   // IMPORTANT: make img a block element (removes inline-image gaps) and object-cover
-                  className="block w-full h-[70vh] md:h-screen object-cover grayscale hover:grayscale-0 transition-all duration-700 pointer-events-auto"
+                  className="block w-full h-[70vh] md:h-screen object-cover grayscale hover:grayscale-0 transition-all duration-300 pointer-events-auto"
                 />
               </CarouselItem>
             ))}

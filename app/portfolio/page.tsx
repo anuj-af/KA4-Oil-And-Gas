@@ -185,7 +185,7 @@ export default function PortfolioPage() {
         "Performance optimisation for reliability",
         "Boiler, turbine and balance-of-plant maintenance"
       ],
-      image: "/markets/market10.png",
+      image: "/markets/market10.webp",
       stats: {}
     }
   ];

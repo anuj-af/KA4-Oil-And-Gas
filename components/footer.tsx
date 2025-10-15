@@ -3,10 +3,12 @@
 import { motion } from "framer-motion"
 import Link from "next/link"
 import { MapPin, Phone, Mail } from "lucide-react"
+import { MoleculeGrid } from "./ui/molecule-grid"
 
 export function Footer() {
   return (
-    <footer className="bg-primary text-primary-foreground py-16">
+    <footer className="bg-primary text-primary-foreground py-16 relative overflow-hidden">
+      <MoleculeGrid />
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <motion.div
@@ -18,8 +20,7 @@ export function Footer() {
           >
             <h3 className="text-2xl font-light mb-4">KA4 Oil & Gas Services LLC</h3>
             <p className="text-primary-foreground/80 mb-6 max-w-md leading-relaxed">
-              Leading the energy industry with innovative solutions, sustainable practices, and unwavering commitment to
-              excellence.
+              Empowering Potential. Delivering Performance.
             </p>
 
             <div className="space-y-3">
