@@ -239,7 +239,11 @@ export default function PortfolioPage() {
       {/* Projects Grid */}
       <section className="pb-20 px-6">
         <div className="max-w-7xl mx-auto">
-          <motion.div layout className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <motion.div layout
+            className={`${filteredProjects.length === 1
+                ? "flex items-center justify-center"
+                : "grid md:grid-cols-2 lg:grid-cols-3 gap-8"
+              }`}>
             {filteredProjects.map((project, index) => (
               <motion.div
                 key={project.title}
@@ -248,11 +252,13 @@ export default function PortfolioPage() {
                 animate={{ opacity: 1, scale: 1 }}
                 exit={{ opacity: 0, scale: 0.9 }}
                 transition={{ duration: 0.6, delay: index * 0.1 }}
-                className="group cursor-pointer"
+                className={`group cursor-pointer ${
+                  filteredProjects.length === 1 ? "w-full max-w-3xl h-screen flex flex-col" : ""
+                }`}
                 onClick={() => setSelectedProject(projects.indexOf(project))}
               >
                 <div className="bg-card rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500">
-                  <div className="relative h-64 overflow-hidden">
+                  <div className="relative h-80 overflow-hidden">
                     <Image
                       src={project.image || "/placeholder.svg"}
                       alt={project.title}

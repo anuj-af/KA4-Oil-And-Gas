@@ -90,8 +90,71 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* CEO Message */}
+      {/* Why KA4 */}
       <section className="py-20 px-6">
+        <div className="max-w-4xl mx-auto">
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8 }}
+            viewport={{ once: true }}
+            className="text-center mb-20"
+          >
+            <h2 className="text-4xl md:text-5xl font-light mb-6 font-serif">Why KA4?</h2>
+            <p className="text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed">
+              Partner with us to unlock industrial excellence through comprehensive, lifecycle solutions backed by
+              decades of expertise and unwavering commitment to your success.
+            </p>
+          </motion.div>
+
+          <div className="space-y-12">
+            {[
+              {
+                title: "Focus On Your Core Business",
+                description: "As your partner, we look after everything else, including projects and the maintenance of your plants.",
+              },
+              {
+                title: "All Trades From a Single Source",
+                description: "Our multidisciplinary teams save you time and effort and are always at the cutting edge of the service industry.",
+              },
+              {
+                title: "Entire Lifecycle",
+                description: "Our services cover the entire lifecycle of industrial plants: from consulting, engineering, manufacturing, assembly, maintenance, plant expansions and general overhaul – all of it supported by digital applications.",
+              },
+              {
+                title: "Creating Added Value",
+                description: "By enhancing the performance of their plants, we create tangible added value for our customers.",
+              },
+              {
+                title: "Many years of Industrial Experience",
+                description: "We have been collecting detailed knowledge about our customers’ plants and processes for decades. We understand how your business works and are ready to help wherever you might need us.",
+              },
+              {
+                title: "Highly Qualified Team",
+                description: "Our personnel is extremely well-trained and has many years of experience in the industry. For major projects such as turnarounds, we mobilise hundreds of experienced specialists for you in the shortest possible period of time.",
+              }
+            ].map((milestone, index) => (
+              <motion.div
+                key={index}
+                initial={{ opacity: 0, x: index % 2 === 0 ? -50 : 50 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                transition={{ duration: 0.8, delay: index * 0.1 }}
+                viewport={{ once: true }}
+                className={`flex items-center gap-8 ${index % 2 === 1 ? "flex-row-reverse" : ""}`}
+              >
+                <div className="flex-1">
+                  <h3 className="text-2xl font-light mb-3">{milestone.title}</h3>
+                  <p className="text-muted-foreground leading-relaxed">{milestone.description}</p>
+                </div>
+                <div className="w-4 h-4 bg-primary rounded-full flex-shrink-0"></div>
+              </motion.div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* CEO Message */}
+      <section className="py-20 px-6 bg-muted/30">
         <div className="max-w-6xl mx-auto">
           <div className="grid md:grid-cols-2 gap-16 items-center">
               <motion.div
@@ -99,7 +162,7 @@ export default function AboutPage() {
               whileInView={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.8, delay: 0.2 }}
               viewport={{ once: true }}
-              className="relative h-100 w-100 rounded-lg overflow-hidden shadow-2xl order-2 md:order-none"
+              className="relative h-100 w-100 rounded-lg overflow-hidden shadow-md order-2 md:order-none"
             >
               <Image
                 src="/KA4.png"
@@ -155,7 +218,7 @@ export default function AboutPage() {
       </section>
 
       {/* Our Mission */}
-      <section className="py-20 px-6 bg-muted/30">
+      <section className="py-20 px-6">
         <div className="max-w-6xl mx-auto">
           <div className="grid md:grid-cols-2 gap-16 items-center">
             <motion.div
@@ -203,7 +266,7 @@ export default function AboutPage() {
       </section>
 
       {/* Our Vission */}
-      <section className="py-20 px-6">
+      <section className="py-20 px-6 bg-muted/30">
         <div className="max-w-6xl mx-auto">
           <div className="grid md:grid-cols-2 gap-16 items-center">
                         <motion.div
