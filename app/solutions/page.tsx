@@ -55,7 +55,7 @@ export default function SolutionsPage() {
       <section className="relative group pt-32 pb-20 px-6 overflow-hidden">
   {/* Background image with grayscale hover effect */}
   <div
-    className="absolute inset-0 bg-[url('/solutions/Solution4.jpg')] bg-cover bg-center filter grayscale group-hover:grayscale-0 transition-all duration-700 ease-in-out -z-10"
+    className="absolute inset-0 bg-[url('/temp/solution4.jpg')] bg-cover bg-center filter grayscale group-hover:grayscale-0 transition-all duration-700 ease-in-out -z-10"
   />
 
   {/* Overlay to improve text contrast */}
@@ -167,7 +167,7 @@ export default function SolutionsPage() {
               className="relative h-96 rounded-lg overflow-hidden shadow-2xl"
             >
               <Image
-                src="/Solutions/Solution1B.jpg"
+                src="/temp/Solution1B.jpg"
                 alt="Engineering and Execution"
                 fill
                 className="object-cover grayscale hover:grayscale-0 transition-all duration-700"
@@ -330,7 +330,7 @@ export default function SolutionsPage() {
               className="relative h-96 rounded-lg overflow-hidden shadow-2xl"
             >
               <Image
-                src="/solutions/solution2B.png"
+                src="/temp/solution2B.png"
                 alt="Project Solutions"
                 fill
                 className="object-cover grayscale hover:grayscale-0 transition-all duration-700"
@@ -423,7 +423,7 @@ in-house.
               className="relative h-96 rounded-lg overflow-hidden shadow-2xl"
             >
               <Image
-                src="/solutions/solution3B.jpg"
+                src="/temp/solution3B.jpg"
                 alt="Project Solutions"
                 fill
                 className="object-cover grayscale hover:grayscale-0 transition-all duration-700"
