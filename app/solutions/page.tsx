@@ -167,7 +167,7 @@ export default function SolutionsPage() {
               className="relative h-96 rounded-lg overflow-hidden shadow-2xl"
             >
               <Image
-                src="/temp/Solution1B.jpg"
+                src="/temp/solution1B.jpg"
                 alt="Engineering and Execution"
                 fill
                 className="object-cover grayscale hover:grayscale-0 transition-all duration-700"
