@@ -330,7 +330,7 @@ export default function SolutionsPage() {
               className="relative h-96 rounded-lg overflow-hidden shadow-2xl"
             >
               <Image
-                src="/temp/solution2B.png"
+                src="/temp/Solution2B.png"
                 alt="Project Solutions"
                 fill
                 className="object-cover grayscale hover:grayscale-0 transition-all duration-700"
@@ -423,7 +423,7 @@ in-house.
               className="relative h-96 rounded-lg overflow-hidden shadow-2xl"
             >
               <Image
-                src="/temp/solution3B.jpg"
+                src="/temp/Solution3B.jpg"
                 alt="Project Solutions"
                 fill
                 className="object-cover grayscale hover:grayscale-0 transition-all duration-700"
