@@ -198,11 +198,22 @@ export default function PortfolioPage() {
       <Navigation />
 
       {/* Hero Section */}
-      <section className="pt-32 pb-20 px-6">
-        <div className="max-w-6xl mx-auto text-center">
-          <motion.div initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8 }}>
-            <h1 className="text-6xl md:text-8xl font-light mb-6 text-balance">Our Markets</h1>
-            <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
+      <section className="relative group pt-32 pb-20 px-6 overflow-hidden">
+        {/* Background image with grayscale hover effect */}
+        <div
+          className="absolute inset-0 bg-[url('/banners/markets/banner.jpg')] bg-cover bg-center filter grayscale group-hover:grayscale-0 transition-all duration-700 ease-in-out -z-10"
+        />
+        {/* Overlay to improve text contrast */}
+        <div className="absolute inset-0 bg-black/50" />
+        <div className="relative max-w-6xl mx-auto">
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8 }}
+            className="text-center mb-16"
+          >
+            <h1 className="text-6xl md:text-8xl font-light mb-6 text-gray-200 text-balance">Our Markets</h1>
+            <p className="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
               Showcasing our most significant projects across exploration, production, refining, and renewable energy
               initiatives worldwide.
             </p>
@@ -211,7 +222,7 @@ export default function PortfolioPage() {
       </section>
 
       {/* Filter Navigation */}
-      <section className="pb-12 px-6">
+      <section className="py-20 px-6">
         <div className="max-w-6xl mx-auto">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -293,76 +304,19 @@ export default function PortfolioPage() {
         </div>
       </section>
 
-      {/* Stats Section */}
-      <section className="py-20 px-6 bg-muted/30">
-        <div className="max-w-6xl mx-auto">
-          <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8 }}
-            viewport={{ once: true }}
-            className="text-center mb-16"
-          >
-            <h2 className="text-4xl md:text-5xl font-light mb-6">Global Impact</h2>
-            <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-              Our projects span across continents, delivering energy solutions that power communities and drive economic
-              growth.
-            </p>
-          </motion.div>
-
-          <div className="grid md:grid-cols-4 gap-8">
-            {[
-              { number: "150+", label: "Active Projects", delay: 0 },
-              { number: "50", label: "Countries", delay: 0.1 },
-              { number: "$25B", label: "Total Investment", delay: 0.2 },
-              { number: "2M", label: "Barrels Daily", delay: 0.3 },
-            ].map((stat, index) => (
-              <motion.div
-                key={index}
-                initial={{ opacity: 0, y: 30 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.8, delay: stat.delay }}
-                viewport={{ once: true }}
-                className="text-center"
-              >
-                <div className="text-4xl md:text-5xl font-light mb-2">{stat.number}</div>
-                <div className="text-muted-foreground">{stat.label}</div>
-              </motion.div>
-            ))}
-          </div>
-        </div>
-      </section>
       <Footer />
 
       <Dialog open={selectedProject !== null} onOpenChange={() => setSelectedProject(null)}>
         <DialogContent className="!w-[90vw] !max-w-none  max-h-[90vh] overflow-y-auto">
           {selectedProject !== null && (
             <>
-              <DialogHeader>
-                <DialogTitle className="text-4xl font-light mb-2">{projects[selectedProject].title}</DialogTitle>
-                <div className="flex items-center gap-6 text-muted-foreground">
-                  <div className="flex items-center gap-2">
-                    <MapPin size={16} />
-                    <span>{projects[selectedProject].location}</span>
-                  </div>
-                  <div className="flex items-center gap-2">
-                    <Calendar size={16} />
-                    <span>{projects[selectedProject].year}</span>
-                  </div>
-                  <div className="flex items-center gap-2">
-                    <TrendingUp size={16} />
-                    <span className="capitalize">{projects[selectedProject].category}</span>
-                  </div>
-                </div>
-              </DialogHeader>
-
               <div className="space-y-6 mt-6">
                 <div className="relative h-96 rounded-lg overflow-hidden">
                   <Image
                     src={projects[selectedProject].image || "/placeholder.svg"}
                     alt={projects[selectedProject].title}
                     fill
-                    className="object-cover grayscale"
+                    className="object-cover grayscale hover:grayscale-0 transition-all duration-700"
                   />
                 </div>
 

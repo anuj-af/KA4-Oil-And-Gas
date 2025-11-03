@@ -3,15 +3,17 @@
 import { useState } from "react"
 import { motion, AnimatePresence } from "framer-motion"
 import { ChevronDown } from "lucide-react"
+import Image from "next/image"
 
 interface ExpandableServiceProps {
   title: string
   description?: string
   content: string | string[]
+  image?: string
   isCard?: boolean
 }
 
-export function ExpandableService({ title, description, content, isCard = true }: ExpandableServiceProps) {
+export function ExpandableService({ title, description, content, image, isCard = true }: ExpandableServiceProps) {
   const [isExpanded, setIsExpanded] = useState(false)
 
   const contentArray = Array.isArray(content) ? content : [content]
@@ -55,11 +57,26 @@ export function ExpandableService({ title, description, content, isCard = true }
             className="overflow-hidden"
           >
             <div className="pt-4 mt-4 border-t border-muted">
-              {contentArray.map((item, index) => (
-                <p key={index} className="text-muted-foreground leading-relaxed mb-3 last:mb-0 text-sm">
-                  {item}
-                </p>
-              ))}
+              <div className="flex flex-col gap-4">
+                <div>
+                  {contentArray.map((item, index) => (
+                    <p key={index} className="text-muted-foreground leading-relaxed mb-3 last:mb-0 text-sm">
+                      {item}
+                    </p>
+                  ))}
+                </div>
+
+                {image && (
+                  <div className="relative w-40 h-32 rounded-lg overflow-hidden shadow-md flex-shrink-0">
+                    <Image
+                      src={image || "/placeholder.svg"}
+                      alt={title}
+                      fill
+                      className="object-cover grayscale hover:grayscale-0 transition-all duration-500"
+                    />
+                  </div>
+                )}
+              </div>
             </div>
           </motion.div>
         )}

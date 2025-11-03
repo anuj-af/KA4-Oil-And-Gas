@@ -146,11 +146,22 @@ export default function ServicesPage() {
       <Navigation />
 
       {/* Hero Section */}
-      <section className="pt-32 pb-20 px-6">
-        <div className="max-w-6xl mx-auto text-center">
-          <motion.div initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8 }}>
-            <h1 className="text-6xl md:text-8xl font-light mb-6 text-balance">Our Services</h1>
-            <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
+      <section className="relative group pt-32 pb-20 px-6 overflow-hidden">
+        {/* Background image with grayscale hover effect */}
+        <div
+          className="absolute inset-0 bg-[url('/banners/services/banner.jpg')] bg-cover bg-center filter grayscale group-hover:grayscale-0 transition-all duration-700 ease-in-out -z-10"
+        />
+        {/* Overlay to improve text contrast */}
+        <div className="absolute inset-0 bg-black/50" />
+        <div className="relative max-w-6xl mx-auto">
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8 }}
+            className="text-center mb-16"
+          >
+            <h1 className="text-6xl md:text-8xl font-light mb-6 text-gray-200 text-balance">Our Services</h1>
+            <p className="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
               Comprehensive energy solutions spanning the entire value chain, from exploration to distribution, powered
               by innovation and sustainability.
             </p>
@@ -262,7 +273,7 @@ export default function ServicesPage() {
                     src={services[selectedService].image || "/placeholder.svg"}
                     alt={services[selectedService].title}
                     fill
-                    className="object-cover grayscale"
+                    className="object-cover grayscale hover:grayscale-0 transition-all duration-700"
                   />
                 </div>
 

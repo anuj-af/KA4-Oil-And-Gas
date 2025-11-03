@@ -32,26 +32,12 @@ export default function ContactPage() {
 
   const offices = [
     {
-      city: "Houston",
-      country: "USA",
-      address: "1200 Energy Plaza, Houston, TX 77002",
-      phone: "+1 (713) 555-0100",
-      email: "houston@ka4energy.com",
-    },
-    {
-      city: "London",
-      country: "UK",
-      address: "25 Canary Wharf, London E14 5AB",
-      phone: "+44 20 7555 0100",
-      email: "london@ka4energy.com",
-    },
-    {
-      city: "Dubai",
-      country: "UAE",
-      address: "Dubai International Financial Centre, Dubai",
-      phone: "+971 4 555 0100",
-      email: "dubai@ka4energy.com",
-    },
+      "city": "Abu Dhabi",
+      "country": "UAE",
+      "address": "Kezad, Abu Dhabi",
+      "phone": "+971 54 384 9119",
+      "email": "info@ka4oilandgas.com"
+    }
   ]
 
   return (
@@ -59,11 +45,22 @@ export default function ContactPage() {
       <Navigation />
 
       {/* Hero Section */}
-      <section className="pt-32 pb-20 px-6">
-        <div className="max-w-6xl mx-auto text-center">
-          <motion.div initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8 }}>
-            <h1 className="text-6xl md:text-8xl font-light mb-6 text-balance">Contact Us</h1>
-            <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
+      <section className="relative group pt-32 pb-20 px-6 overflow-hidden">
+        {/* Background image with grayscale hover effect */}
+        <div
+          className="absolute inset-0 bg-[url('/banners/contact/banner.jpg')] bg-cover bg-center filter grayscale group-hover:grayscale-0 transition-all duration-700 ease-in-out -z-10"
+        />
+        {/* Overlay to improve text contrast */}
+        <div className="absolute inset-0 bg-black/50" />
+        <div className="relative max-w-6xl mx-auto">
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8 }}
+            className="text-center mb-16"
+          >
+            <h1 className="text-6xl md:text-8xl font-light mb-6 text-gray-200 text-balance">Contact Us</h1>
+            <p className="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
               Ready to discuss your energy needs? Our global team is here to provide expert guidance and innovative
               solutions tailored to your requirements.
             </p>
@@ -191,8 +188,7 @@ export default function ContactPage() {
                     <Phone className="w-6 h-6 text-primary mt-1" />
                     <div>
                       <h3 className="font-medium mb-1">Phone</h3>
-                      <p className="text-muted-foreground">+1 (800) KA4-OIL-AND-GAS</p>
-                      <p className="text-muted-foreground">+1 (800) 273-9645</p>
+                      <p className="text-muted-foreground">+971 54 384 9119</p>
                     </div>
                   </div>
 
