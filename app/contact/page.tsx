@@ -205,7 +205,7 @@ export default function ContactPage() {
                     <Clock className="w-6 h-6 text-primary mt-1" />
                     <div>
                       <h3 className="font-medium mb-1">Business Hours</h3>
-                      <p className="text-muted-foreground">Monday - Friday: 8:00 AM - 6:00 PM</p>
+                      <p className="text-muted-foreground">Monday - Friday: 8:00 AM - 5:00 PM</p>
                       <p className="text-muted-foreground">Emergency: 24/7 Support</p>
                     </div>
                   </div>
@@ -214,7 +214,7 @@ export default function ContactPage() {
 
               {/* Office Locations */}
               <div>
-                <h3 className="text-2xl font-light mb-6">Global Offices</h3>
+                <h3 className="text-2xl font-light mb-6">Our Office</h3>
                 <div className="space-y-6">
                   {offices.map((office, index) => (
                     <motion.div
