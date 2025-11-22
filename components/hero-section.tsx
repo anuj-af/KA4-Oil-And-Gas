@@ -91,10 +91,15 @@ export function HeroSection() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.9 }}
-            className="flex flex-col sm:flex-row gap-6 justify-center"
+            className="flex flex-col sm:flex-row gap-6 justify-center items-center"
           >
+            {/* Explore Our Work — visible only on desktop */}
             <Link href="/solutions">
-              <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
+              <motion.div
+                className="hidden sm:flex"
+                whileHover={{ scale: 1.05 }}
+                whileTap={{ scale: 0.95 }}
+              >
                 <Button size="lg" className="bg-white text-black hover:bg-white/90 text-lg px-8 py-6">
                   Explore Our Work
                   <ArrowRight className="ml-2 h-5 w-5" />
@@ -102,12 +107,13 @@ export function HeroSection() {
               </motion.div>
             </Link>
 
+            {/* Download Brochure — visible everywhere & centered on mobile */}
             <a href="https://drive.google.com/uc?export=download&id=1dZgwOyL2gtG5WAHvIWxLYis7akyUAF7s">
               <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
                 <Button
                   variant="outline"
                   size="lg"
-                  className="border-white text-white hover:bg-white hover:text-black text-lg px-8 py-6 bg-transparent hidden sm:flex"
+                  className="border-white text-white hover:bg-white hover:text-black text-lg px-8 py-6 bg-transparent flex"
                 >
                   Download Brochure
                 </Button>
