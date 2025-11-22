@@ -26,11 +26,11 @@ export function Footer() {
             <div className="space-y-3">
               <div className="flex items-center gap-3">
                 <MapPin className="w-4 h-4" />
-                <span className="text-sm text-primary-foreground/80">1200 Energy Plaza, Houston, TX 77002</span>
+                <span className="text-sm text-primary-foreground/80">Plot- KHIB 17-074, KEZAD-B. Khalifa Economical Zone Abu Dhabi.</span>
               </div>
               <div className="flex items-center gap-3">
                 <Phone className="w-4 h-4" />
-                <span className="text-sm text-primary-foreground/80">+971 544588455</span>
+                <span className="text-sm text-primary-foreground/80">+971 54 384 9119</span>
               </div>
               <div className="flex items-center gap-3">
                 <Mail className="w-4 h-4" />
@@ -109,7 +109,7 @@ export function Footer() {
           viewport={{ once: true }}
           className="border-t border-primary-foreground/20 mt-12 pt-8 text-center"
         >
-          <p className="text-primary-foreground/60">© 2025 KA4 Oil & Gas Services LLC. All rights reserved.</p>
+          <p className="text-primary-foreground/60">© 2025 KA4 Oil & Gas Services LLC. All rights reserved. Made by V-Create Agency.</p>
         </motion.div>
       </div>
     </footer>
