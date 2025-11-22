@@ -93,7 +93,7 @@ export function HeroSection() {
             transition={{ duration: 0.8, delay: 0.9 }}
             className="flex flex-col sm:flex-row gap-6 justify-center"
           >
-            <Link href="/portfolio">
+            <Link href="/solutions">
               <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
                 <Button size="lg" className="bg-white text-black hover:bg-white/90 text-lg px-8 py-6">
                   Explore Our Work
@@ -102,17 +102,17 @@ export function HeroSection() {
               </motion.div>
             </Link>
 
-            <Link href="/about">
+            <a href="https://drive.google.com/uc?export=download&id=1dZgwOyL2gtG5WAHvIWxLYis7akyUAF7s">
               <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
                 <Button
                   variant="outline"
                   size="lg"
                   className="border-white text-white hover:bg-white hover:text-black text-lg px-8 py-6 bg-transparent hidden sm:flex"
                 >
-                  Learn More
+                  Download Brochure
                 </Button>
               </motion.div>
-            </Link>
+            </a>
           </motion.div>
         </motion.div>
       </div>

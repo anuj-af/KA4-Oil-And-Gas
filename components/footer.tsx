@@ -84,13 +84,13 @@ export function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/portfolio" className="hover:text-primary-foreground transition-colors">
-                  Portfolio
+                <Link href="/solutions" className="hover:text-primary-foreground transition-colors">
+                  Solutions
                 </Link>
               </li>
               <li>
-                <Link href="/contact" className="hover:text-primary-foreground transition-colors">
-                  Careers
+                <Link href="/portfolio" className="hover:text-primary-foreground transition-colors">
+                  Markets
                 </Link>
               </li>
               <li>

@@ -97,7 +97,7 @@ export default function AboutPage() {
       </section>
 
       {/* Why KA4 */}
-      <section className="py-20 px-6">
+      {/* <section className="py-20 px-6">
         <div className="max-w-4xl mx-auto">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -157,7 +157,7 @@ export default function AboutPage() {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* CEO Message */}
       <section className="py-20 px-6 bg-muted/30">

@@ -34,7 +34,7 @@ export default function ContactPage() {
     {
       "city": "Abu Dhabi",
       "country": "UAE",
-      "address": "Kezad, Abu Dhabi",
+      "address": "Plot- KHIB 17-074, KEZAD-B. Khalifa Economical Zone Abu Dhabi.",
       "phone": "+971 54 384 9119",
       "email": "info@ka4oilandgas.com"
     }
@@ -256,15 +256,24 @@ export default function ContactPage() {
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
           >
-            <h2 className="text-3xl font-light mb-8">Find Us Worldwide</h2>
-            <div className="bg-card rounded-lg p-8 shadow-lg">
-              <div className="h-96 bg-muted rounded-lg flex items-center justify-center">
-                <p className="text-muted-foreground">Interactive World Map</p>
+            <h2 className="text-3xl font-light mb-8">Find Us Easily</h2>
+            <div className="bg-card rounded-lg shadow-lg">
+              <div className="h-96 bg-muted rounded-lg overflow-hidden">
+                <iframe
+                  title="Abu Dhabi Location"
+                  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7202.003600631562!2d54.818333!3d24.642028!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjTCsDM4JzMxLjMiTiA1NMKwNDknMDYuMCJF!5e0!3m2!1sen!2sin!4v1732261800000!5m2!1sen!2sin"
+                  width="100%"
+                  height="100%"
+                  style={{ border: 0 }}
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                />
               </div>
             </div>
           </motion.div>
         </div>
       </section>
+
 
       <Footer />
     </main>
