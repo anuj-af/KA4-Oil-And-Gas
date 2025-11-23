@@ -35,7 +35,7 @@ export default function AboutPage() {
       </section>
 
       {/* Our Story */}
-      <section className="py-20 px-6 bg-muted/30">
+      <section className="py-20 px-6">
         <div className="max-w-6xl mx-auto">
           <div className="grid md:grid-cols-2 gap-16 items-center">
             <motion.div
@@ -46,35 +46,40 @@ export default function AboutPage() {
             >
               <h2 className="text-4xl md:text-5xl font-light mb-8">About KA4 Oil & Gas</h2>
               <p className="text-lg leading-relaxed text-muted-foreground mb-6">
-                At KA4 Oil & Gas Services LLC, we are more than just an oil and gas company, we are
-                pioneers in energy exploration, innovation, and sustainability. We are one of the
-                largest international contractor and maintenance services providers in the field of oil
-                & gas construction focusing on both onshore and offshore. Established in the UAE in
-                2023, we have been known as a complete service provider to major EPC companies
-                all over the Middle East.
+                At KA4 Oil & Gas Services LLC, we are more than just an oil and gas company, 
+                we are pioneers in energy exploration, innovation, and sustainability. Adhering 
+                by a single, unwavering principle:
               </p>
               <p className="text-lg leading-relaxed text-muted-foreground mb-6">
-                KA4 is certified by ISO 9001, ISO 14001 and ISO 45001:2023. We undertake the
-                execution of Oil & Gas field services comprising Passive Fire Proofing, Blasting &
-                Painting, Scaffolding, Pipeline Wrapping and Coating, Fire Proofing for Cables,
-                Structural Erection and Installation.
+                <b>"Empowering Potential. Delivering Performance"</b>
+              </p>
+              <p className="text-lg leading-relaxed text-muted-foreground mb-2">
+               We are one of the largest international contractor and maintenance services providers 
+               in the field of oil & gas construction focusing on both onshore and offshore.
               </p>
               <p className="text-lg leading-relaxed text-muted-foreground mb-6">
-                As a leading player in the oil and gas industry, we recognize that ensuring the
-                well-being of our workforce, communities, and the environment is non-negotiable.
+               Established in the UAE in 2023, we have been known as a complete service provider to major 
+               EPC companies all over the Middle East. KA4 is certified by ISO 9001, ISO 14001 and ISO 45001:2023.
               </p>
               <p className="text-lg leading-relaxed text-muted-foreground mb-6">
-                With a steadfast commitment to safety, we have implemented rigorous protocols,
-                state-of-the-art technologies, and comprehensive training programs to mitigate risks
-                and hazards at every step of our operations. From exploration and extraction to
-                transportation and distribution, safety is ingrained in our culture and guides our every
-                decision.
+                We undertake the execution of Oil & Gas field services comprising Passive Fire Proofing, 
+                Blasting & Painting, Scaffolding, Pipeline Wrapping and Coating, Fire Proofing for Cables, 
+                Structural Erection and Installation. Our extensive expertise is backed by a strategically 
+                developed <b>20,000 sq. m facility headquarted at KEZAD</b> to execute every phase of your project, 
+                from concept to commissioning; delivering with speed, reliability and performance at a scale 
+                that sets us apart.
+              </p>
+              <p className="text-lg leading-relaxed text-muted-foreground mb-6">
+                As a leading player in the oil and gas industry, we recognize that ensuring the well-being 
+                of our workforce, communities, and the environment is non-negotiable. With a steadfast commitment 
+                to safety, we have implemented rigorous protocols, state-of-the-art technologies, and comprehensive 
+                training programs to mitigate risks and hazards at every step of our operations. From exploration and 
+                extraction to transportation and distribution, safety is ingrained in our culture and guides our every decision.
               </p>
               <p className="text-lg leading-relaxed text-muted-foreground">
-                At KA4, safety isn't just a priority; it's a core value that guides our actions and defines
-                who we are. We understand that our success is intrinsically linked to the well-being of
-                our people and the communities we serve. By prioritising safety today, we are laying
-                the foundation for a sustainable and prosperous tomorrow.
+                At KA4, safety isn't just a priority; it's a core value that guides our actions and defines who we are. 
+                We understand that our success is intrinsically linked to the well-being of our people and the communities 
+                we serve. By prioritising safety today, we are laying the foundation for a sustainable and prosperous tomorrow
               </p>
             </motion.div>
 

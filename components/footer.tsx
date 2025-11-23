@@ -109,7 +109,7 @@ export function Footer() {
           viewport={{ once: true }}
           className="border-t border-primary-foreground/20 mt-12 pt-8 text-center"
         >
-          <p className="text-primary-foreground/60">© 2025 KA4 Oil & Gas Services LLC. All rights reserved. Made by V-Create Agency.</p>
+          <p className="text-primary-foreground/60">© 2025 KA4 Oil & Gas Services LLC. All rights reserved. Developed by V-Create.</p>
         </motion.div>
       </div>
     </footer>
