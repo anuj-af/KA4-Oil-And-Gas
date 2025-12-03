@@ -196,7 +196,7 @@ export default function ContactPage() {
                     <Mail className="w-6 h-6 text-primary mt-1" />
                     <div>
                       <h3 className="font-medium mb-1">Email</h3>
-                      <p className="text-muted-foreground">info@ka4energy.com</p>
+                      <p className="text-muted-foreground">info@ka4oilandgas.com</p>
                     </div>
                   </div>
 
@@ -204,7 +204,7 @@ export default function ContactPage() {
                     <Clock className="w-6 h-6 text-primary mt-1" />
                     <div>
                       <h3 className="font-medium mb-1">Business Hours</h3>
-                      <p className="text-muted-foreground">Monday - Friday: 8:00 AM - 5:00 PM</p>
+                      <p className="text-muted-foreground">Monday - Saturday: 8:00 AM - 5:00 PM</p>
                       <p className="text-muted-foreground">Emergency: 24/7 Support</p>
                     </div>
                   </div>

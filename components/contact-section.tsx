@@ -25,7 +25,7 @@ export function ContactSection() {
               <div>
                 <h4 className="font-semibold text-foreground mb-2">Contact</h4>
                 <p className="text-muted-foreground">+1 (555) 123-4567</p>
-                <p className="text-muted-foreground">info@ka4energy.com</p>
+                <p className="text-muted-foreground">info@ka4oilandgas.com</p>
               </div>
             </div>
           </div>
