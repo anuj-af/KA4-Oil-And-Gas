@@ -35,7 +35,7 @@ export default function ContactPage() {
       "city": "Abu Dhabi",
       "country": "UAE",
       "address": "Plot- KHIB 17-074, KEZAD-B. Khalifa Economical Zone Abu Dhabi.",
-      "phone": "+971 544 588 455",
+      "phone": "+971 589 476 677",
       "email": "info@ka4oilandgas.com"
     }
   ]
@@ -188,7 +188,7 @@ export default function ContactPage() {
                     <Phone className="w-6 h-6 text-primary mt-1" />
                     <div>
                       <h3 className="font-medium mb-1">Phone</h3>
-                      <p className="text-muted-foreground">+971 544 588 455</p>
+                      <p className="text-muted-foreground">+971 589 476 677</p>
                     </div>
                   </div>
 
