@@ -18,7 +18,7 @@ export function Footer() {
             viewport={{ once: true }}
             className="md:col-span-2"
           >
-            <h3 className="text-2xl font-light mb-4">KA4 Oil & Gas Services LLC</h3>
+            <h3 className="text-2xl font-light mb-4">KA Four Oil & Gas Services LLC</h3>
             <p className="text-primary-foreground/80 mb-6 max-w-md leading-relaxed">
               Empowering Potential. Delivering Performance.
             </p>
@@ -109,7 +109,7 @@ export function Footer() {
           viewport={{ once: true }}
           className="border-t border-primary-foreground/20 mt-12 pt-8 text-center"
         >
-          <p className="text-primary-foreground/60">© 2025 KA4 Oil & Gas Services LLC. All rights reserved. Developed by V-Create.</p>
+          <p className="text-primary-foreground/60">© 2025 KA Four Oil & Gas Services LLC. All rights reserved. Developed by V-Create.</p>
         </motion.div>
       </div>
     </footer>

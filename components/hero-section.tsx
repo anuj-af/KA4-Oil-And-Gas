@@ -75,7 +75,7 @@ export function HeroSection() {
             transition={{ duration: 0.8, delay: 0.5 }}
             className="text-5xl md:text-7xl lg:text-8xl font-light text-white mb-6 tracking-tight text-balance"
           >
-            KA4 OIL AND GAS
+            KA FOUR OIL AND GAS
           </motion.h1>
 
           <motion.p

@@ -13,7 +13,7 @@ const playfair = Playfair_Display({
 })
 
 export const metadata: Metadata = {
-  title: "KA4 Oil and Gas - Powering the Future",
+  title: "KA FOUR Oil and Gas - Powering the Future",
   description:
     "Leading energy company providing innovative oil exploration, refinery operations, and sustainable energy solutions worldwide.",
   generator: "",

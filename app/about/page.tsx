@@ -27,7 +27,7 @@ export default function AboutPage() {
           >
             <h1 className="text-6xl md:text-8xl font-light mb-6 text-gray-200 text-balance">About Us</h1>
             <p className="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
-              KA4 Oil & Gas Services LLC transforms how the world powers its future through sustainable 
+              KA FOUR Oil & Gas Services LLC transforms how the world powers its future through sustainable 
               practices and cutting edge technology by innovating engineering.
             </p>
           </motion.div>
@@ -44,9 +44,9 @@ export default function AboutPage() {
               transition={{ duration: 0.8 }}
               viewport={{ once: true }}
             >
-              <h2 className="text-4xl md:text-5xl font-light mb-8">About KA4 Oil & Gas</h2>
+              <h2 className="text-4xl md:text-5xl font-light mb-8">About KA Four Oil & Gas</h2>
               <p className="text-lg leading-relaxed text-muted-foreground mb-6">
-                At KA4 Oil & Gas Services LLC, we are more than just an oil and gas company, 
+                At KA Four Oil & Gas Services LLC, we are more than just an oil and gas company, 
                 we are pioneers in energy exploration, innovation, and sustainability. Adhering 
                 by a single, unwavering principle:
               </p>
@@ -59,7 +59,7 @@ export default function AboutPage() {
               </p>
               <p className="text-lg leading-relaxed text-muted-foreground mb-6">
                Established in the UAE in 2023, we have been known as a complete service provider to major 
-               EPC companies all over the Middle East. KA4 is certified by ISO 9001, ISO 14001 and ISO 45001:2023.
+               EPC companies all over the Middle East. KA Four is certified by ISO 9001, ISO 14001 and ISO 45001:2023.
               </p>
               <p className="text-lg leading-relaxed text-muted-foreground mb-6">
                 We undertake the execution of Oil & Gas field services comprising Passive Fire Proofing, 
@@ -77,7 +77,7 @@ export default function AboutPage() {
                 extraction to transportation and distribution, safety is ingrained in our culture and guides our every decision.
               </p>
               <p className="text-lg leading-relaxed text-muted-foreground">
-                At KA4, safety isn't just a priority; it's a core value that guides our actions and defines who we are. 
+                At KA Four, safety isn't just a priority; it's a core value that guides our actions and defines who we are. 
                 We understand that our success is intrinsically linked to the well-being of our people and the communities 
                 we serve. By prioritising safety today, we are laying the foundation for a sustainable and prosperous tomorrow
               </p>

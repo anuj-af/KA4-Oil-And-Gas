@@ -39,14 +39,14 @@ export function Navigation() {
             <Link href="/" className="flex items-center gap-4">
               <Image 
                 src="/logo.png"   // Adjust path as needed if stored differently
-                alt="KA4 Logo"
+                alt="KA Four Logo"
                 width={36}         // Set width as preferred
                 height={36}        // Set height as preferred
                 className="rounded-md" // Optional: style as needed
                 priority
               />
               <h1 className="text-xl font-light text-foreground tracking-tight hover:text-primary transition-colors">
-                KA4 Oil and Gas
+                KA Four Oil and Gas
               </h1>
             </Link>
           </motion.div>

@@ -34,7 +34,7 @@ export default function PortfolioPage() {
       location: null,
       year: null,
       description:
-        "At KA4, we prioritise regular inspections and integrity assessments to guarantee the safety and efficiency of oil and gas tanks. Coupled with proactive maintenance measures, we diligently prevent corrosion and leaks to uphold operational excellence and environmental stewardship.",
+        "At KA Four, we prioritise regular inspections and integrity assessments to guarantee the safety and efficiency of oil and gas tanks. Coupled with proactive maintenance measures, we diligently prevent corrosion and leaks to uphold operational excellence and environmental stewardship.",
       highlights: [
         "Regular inspections & integrity assessments",
         "Proactive corrosion prevention and leak control",
@@ -50,7 +50,7 @@ export default function PortfolioPage() {
       location: null,
       year: null,
       description:
-        "At KA4, we meticulously conduct routine maintenance procedures to ensure optimal performance and safety of nuclear power plants. Our proactive approach includes comprehensive inspections, equipment testing, and preventive measures to uphold regulatory compliance and operational integrity.",
+        "At KA Four, we meticulously conduct routine maintenance procedures to ensure optimal performance and safety of nuclear power plants. Our proactive approach includes comprehensive inspections, equipment testing, and preventive measures to uphold regulatory compliance and operational integrity.",
       highlights: [
         "Routine inspections & equipment testing",
         "Preventive maintenance programs",
@@ -66,7 +66,7 @@ export default function PortfolioPage() {
       location: null,
       year: null,
       description:
-        "KA4 places strong emphasis on maintaining hydropower plants with rigorous upkeep protocols. Our strategy involves consistent inspections, servicing of equipment, and proactive initiatives to enhance efficiency and reliability while minimising environmental footprint.",
+        "KA Four places strong emphasis on maintaining hydropower plants with rigorous upkeep protocols. Our strategy involves consistent inspections, servicing of equipment, and proactive initiatives to enhance efficiency and reliability while minimising environmental footprint.",
       highlights: [
         "Consistent inspections & servicing",
         "Efficiency and reliability improvements",
@@ -82,7 +82,7 @@ export default function PortfolioPage() {
       location: null,
       year: null,
       description:
-        "KA4 provides top-notch scaffolding solutions tailored to construction site needs. With a focus on safety and efficiency, we offer expert erection, inspection and dismantling services ensuring optimal support for every project.",
+        "KA Four provides top-notch scaffolding solutions tailored to construction site needs. With a focus on safety and efficiency, we offer expert erection, inspection and dismantling services ensuring optimal support for every project.",
       highlights: [
         "Scaffolding erection, inspection & dismantling",
         "Custom scaffold design and rental",
@@ -98,7 +98,7 @@ export default function PortfolioPage() {
       location: null,
       year: null,
       description:
-        "KA4 is dedicated to meticulous maintenance of chemical plants, employing thorough protocols to ensure operational safety and efficiency. Our strategy encompasses regular inspections, equipment fine-tuning, and proactive interventions to minimise risks and meet stringent regulatory standards.",
+        "KA Four is dedicated to meticulous maintenance of chemical plants, employing thorough protocols to ensure operational safety and efficiency. Our strategy encompasses regular inspections, equipment fine-tuning, and proactive interventions to minimise risks and meet stringent regulatory standards.",
       highlights: [
         "Thorough inspection & risk mitigation",
         "Preventive equipment tuning & servicing",
@@ -178,7 +178,7 @@ export default function PortfolioPage() {
       location: null,
       year: null,
       description:
-        "KA4 excels in maintaining thermal power plants with precision and efficiency. From regular inspections to emergency repairs, our teams ensure uninterrupted operation and compliance with environmental regulations while optimising plant performance for reliability and sustainability.",
+        "KA Four excels in maintaining thermal power plants with precision and efficiency. From regular inspections to emergency repairs, our teams ensure uninterrupted operation and compliance with environmental regulations while optimising plant performance for reliability and sustainability.",
       highlights: [
         "Regular inspections & emergency repairs",
         "Environmental compliance & emissions control",

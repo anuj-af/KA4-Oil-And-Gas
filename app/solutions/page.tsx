@@ -54,7 +54,7 @@ export default function SolutionsPage() {
       title: "Scaffolding",
       content: [
         "Our decades of experience mean you get the best solution tailored to your project and work environment. We optimise safety by reducing risk hours at height while matching the solution—whether scaffolding, rope access, cherry pickers or other means—to safe and efficient access.",
-        "KA4 is the most progressive service provider in the scaffolding construction industry. Our process, product and safety innovations have accelerated professionalism in. scaffolding construction, furthering the industry’s ability to deliver safe and affordable services.",
+        "KA Four is the most progressive service provider in the scaffolding construction industry. Our process, product and safety innovations have accelerated professionalism in. scaffolding construction, furthering the industry’s ability to deliver safe and affordable services.",
         "Our scaffolding innovations include:",
         "The scaffolding app",
         "Magnetic anchors",
@@ -65,7 +65,7 @@ export default function SolutionsPage() {
     {
       title: "Rope Access",
       content: [
-        "Our vast experience using ropes, climbing techniques and safety equipment on difficult-to-access work sites is helping customers accomplish more, safely. Whether at height or in depth, such as work sites above water, in confined spaces or within buildings, industrial climbing practised by KA4 is safe, efficient and flexible.",
+        "Our vast experience using ropes, climbing techniques and safety equipment on difficult-to-access work sites is helping customers accomplish more, safely. Whether at height or in depth, such as work sites above water, in confined spaces or within buildings, industrial climbing practised by KA Four is safe, efficient and flexible.",
         "Rope access is used when other working methods are unsafe, not possible or have a negative impact on the environment. Think, for example, of sloping roofs that can’t be reached with aerial work platforms or of work sites above water that can’t be reached with scaffolding.",
         "Increasingly, customers who previously viewed industrial climbing as too dangerous now see it as an access option that actually increases safety by significantly reducing the number of hours at risk.",
         "We implement this service in various markets, including: Chemicals & Petrochemicals, Maritime, Offshore, Civil & Infrastructure",
@@ -79,8 +79,8 @@ export default function SolutionsPage() {
         "Insulation - the key to energy-efficient operations: Industrial insulation significantly contributes to the integrity of pipes, assets and installations. Insulating your assets can also support your energy efficiency goals. Bad-quality insulation can cause heat loss or even integrity loss due to Corrosion Under Insulation (CUI).",
         "Our IsoScan / TIP-Check can identify and visualise areas where you can save energy. The IsoScan uses a thermographic camera to visualise what the naked eye cannot see. By identifying places on an object or installation where heat loss occurs, you get a good picture of the quality of the thermal insulation and whether it needs replacement. The scan reveals both potential savings and the associated investment costs. By also paying attention to CUI during the scan, maintenance costs can be significantly reduced over time. At the same time, process safety is improved substantially.",
         "Cold insulation: We apply cold insulation, primarily in temperatures up to 20° C, to prevent surface condensation and ice formation. Materials commonly applied include foam glass, PIR/PUR or elastomers, with an aluminum/steel/terostat finish.",
-        "Thermal insulation: KA4 has years of experience applying thermal insulation to prevent heat loss and fire hazards. In temperatures ranging from 20° C to 70° C, customers typically request thermal insulation to create safer working conditions. At higher temperatures, thermal insulation is applied to maintain optimal process conditions and ensure safety. At very high temperatures, above 600° C, when insulating with mineral wool, a layer of high-temperature insulation is often applied first.",
-        "Coldbox insulation: KA4 specialises in insulating cold boxes. The insulation consists of perlite granules sprinkled between the piping. During maintenance, this insulation must be removed and reinserted, a job that Bilfinger has completed.",
+        "Thermal insulation: KA Four has years of experience applying thermal insulation to prevent heat loss and fire hazards. In temperatures ranging from 20° C to 70° C, customers typically request thermal insulation to create safer working conditions. At higher temperatures, thermal insulation is applied to maintain optimal process conditions and ensure safety. At very high temperatures, above 600° C, when insulating with mineral wool, a layer of high-temperature insulation is often applied first.",
+        "Coldbox insulation: KA Four specialises in insulating cold boxes. The insulation consists of perlite granules sprinkled between the piping. During maintenance, this insulation must be removed and reinserted, a job that Bilfinger has completed.",
         "Three advantages due to insulation:",
         "Safety: High quality insulation prevents corrosion under insulation (CUI).",
         "Process safety: Good insulation ensures that equipment always maintains the required temperature.",
@@ -91,10 +91,10 @@ export default function SolutionsPage() {
     {
       title: "Painting",
       content: [
-        "KA4 is a reliable and experienced painting partner. Our expertise in the painting process and materials—including special coatings—helps you preserve steel and protect it from external influences that cause corrosion",
+        "KA Four is a reliable and experienced painting partner. Our expertise in the painting process and materials—including special coatings—helps you preserve steel and protect it from external influences that cause corrosion",
         "Blasting (surface pretreatment): Properly pretreating a steel surface before painting it is essential to preserving the material’s durability. One of the most thorough methods of pretreatment is blasting.",
-        "KA4 experts can recommend and perform the best type of blasting for your installation, including: Dust-free blasting, Sponge blasting, Induction blasting, Vacuum blasting, Hydro Jetting, Wet blasting (turbo blasting), Ice blasting",
-        "Preservation: KA4 is a specialist in protecting iron and steel structures from corrosion. With our situation-specific corrosion control program, we can recommend and implement the appropriate type of preservation for your assets.",
+        "KA Four experts can recommend and perform the best type of blasting for your installation, including: Dust-free blasting, Sponge blasting, Induction blasting, Vacuum blasting, Hydro Jetting, Wet blasting (turbo blasting), Ice blasting",
+        "Preservation: KA Four is a specialist in protecting iron and steel structures from corrosion. With our situation-specific corrosion control program, we can recommend and implement the appropriate type of preservation for your assets.",
         "Passive Fire Protection: Protecting steel in fire-prone environments helps ensure its integrity. Passive Fire Protection implemented by our specialists stops corrosion and heat.",
         "Insulating coatings: Let our industrial insulation experts help you determine if coatings with insulating properties are right for your insulation challenge. We have experience applying various coatings to assets needing heat and cold insulation and in applying anti-condensation coatings."
 
@@ -120,7 +120,7 @@ export default function SolutionsPage() {
     {
       title: "Specialised Welding",
       content: [
-        "KA4 has decades of experience in the field of welding. Our team of welding technology specialists works with the following welding methods:",
+        "KA Four has decades of experience in the field of welding. Our team of welding technology specialists works with the following welding methods:",
         "Gas fusion welding",
         "Manual arc welding",
         "Metal active gas/metal inert gas welding",
@@ -132,7 +132,7 @@ export default function SolutionsPage() {
     {
       title: "Piping Construction",
       content: [
-        "We offer top-quality individual piping solutions and always in accordance with the highest technological standards. Through the extensive prefabrication of piping and components in our own workshops, KA4 ensures efficient workflows and a high level of safety and quality.",
+        "We offer top-quality individual piping solutions and always in accordance with the highest technological standards. Through the extensive prefabrication of piping and components in our own workshops, KA Four ensures efficient workflows and a high level of safety and quality.",
         "We manufacture and assemble high-quality piping systems in all common nominal sizes and made from a range of materials: Stainless steel, Hastelloy, Steel / PTFE, Enamel, Plastic, PVDF, Glass.",
       ],
       image: "/solutions/solution7d.jpg"
@@ -140,7 +140,7 @@ export default function SolutionsPage() {
     {
       title: "Steel Structures",
       content: [
-        "We produce steel and specialised structures of any kind, including stages, platforms, stairs, walkways, pipe bridges, piping supports or the manufacturing of skids. KA4 is the partner you need when it comes to aluminum and steel structures. We support our customers not only in design, but also in the preparation of structural analysis (including drawings) and parts lists as well as in the modular planning of skids and piping bridges.",
+        "We produce steel and specialised structures of any kind, including stages, platforms, stairs, walkways, pipe bridges, piping supports or the manufacturing of skids. KA Four is the partner you need when it comes to aluminum and steel structures. We support our customers not only in design, but also in the preparation of structural analysis (including drawings) and parts lists as well as in the modular planning of skids and piping bridges.",
         "Our manufacturing and approval processes are based on DIN EN 1090-2 with design classes EXC 3 and EXC 4. Plan",
       ],
       image: "/placeholder.svg"
@@ -157,7 +157,7 @@ export default function SolutionsPage() {
     {
       title: "Rotating Equipment Services",
       content: [
-        "From manufacturer-independent consulting and maintenance to ongoing optimization and repair, KA4 offers comprehensive services throughout the entire service life of rotating equipment. We monitor ongoing operations and guarantee process safety and maximum reliability. This service package is complemented by a large rental pool that includes consisting of pumps, drive motors and frequency converters.",
+        "From manufacturer-independent consulting and maintenance to ongoing optimization and repair, KA Four offers comprehensive services throughout the entire service life of rotating equipment. We monitor ongoing operations and guarantee process safety and maximum reliability. This service package is complemented by a large rental pool that includes consisting of pumps, drive motors and frequency converters.",
         "Pumps, reciprocating compressors and turbomachinery are at the heart of many production plants. They convey liquid or gaseous raw materials as well as process industry end products and ensure they are in constant motion. Because they generally operate around the clock, they are significantly responsible for the availability and economic efficiency of process industry plants.",
       ],
       image: "/solutions/solution7f.jpg"
@@ -165,7 +165,7 @@ export default function SolutionsPage() {
     {
       title: "Rotating Equipment Assesment",
       content: [
-        "With the KA4 Rotating Assessment, we help our customers develop risk-based and sustainable maintenance for their rotating equipment. This is a tool for identifying optimization potential and recommending measures to reduce costs and improve availability.",
+        "With the KA Four Rotating Assessment, we help our customers develop risk-based and sustainable maintenance for their rotating equipment. This is a tool for identifying optimization potential and recommending measures to reduce costs and improve availability.",
         "Services for heavy rotating equipment: Turbines, compressors and gearbox",
         "Status monitoring online and offline using vibration measurements, Oil sampling - analysis and evaluation, Maintenance and cleaning of lubricating oil and hydraulic systems, Troubleshooting and RCA (root cause analysis), Planning and execution of general overhauls as a turnkey project including mechanical / scaffolding / electrical / automation and insulation services, Alignment and balancing of compressor and turbine trains, Heavy assembly of all components, Management and repair of critical spare parts.",
         "Services for pumps and electric motor",
@@ -197,7 +197,7 @@ export default function SolutionsPage() {
     {
       title: "Quality Assurance and Quality Control",
       content: [
-        "KA4 conducts its services in accordance with international regulations and approves them. We rely on strict quality assurance (QA) and quality control (QC) throughout the production process. This ensures the achievement of the desired product quality.",
+        "KA Four conducts its services in accordance with international regulations and approves them. We rely on strict quality assurance (QA) and quality control (QC) throughout the production process. This ensures the achievement of the desired product quality.",
       ],
       image: "/placeholder.svg"
     },
@@ -254,7 +254,7 @@ export default function SolutionsPage() {
       </section>
 
 
-      {/* Section 1: KA4 Project Solutions */}
+      {/* Section 1: KA Four Project Solutions */}
       <section className="py-20 px-6 bg-muted/30">
         <div className="max-w-6xl mx-auto">
           <motion.div
@@ -264,7 +264,7 @@ export default function SolutionsPage() {
             viewport={{ once: true }}
             className="mb-12"
           >
-            <h2 className="text-4xl md:text-5xl font-serif font-light mb-4">KA4 Project Solutions</h2>
+            <h2 className="text-4xl md:text-5xl font-serif font-light mb-4">KA Four Project Solutions</h2>
             <p className="text-2xl text-muted-foreground font-serif font-light mb-8">
               We make your Projects more efficient.
             </p>
@@ -275,7 +275,7 @@ export default function SolutionsPage() {
               With our extensive project experience and the approaches we have developed from
               it, we are able to deliver efficient project execution to our customers. In order to
               ensure consistency in the services tailored to the different project types, we have
-              developed a modular and therefore comprehensive solution: the KA4 Project
+              developed a modular and therefore comprehensive solution: the KA Four Project
               Solution.
             </p>
           </motion.div>
@@ -360,7 +360,7 @@ export default function SolutionsPage() {
               </h3>
               <p className="text-lg leading-relaxed text-muted-foreground mb-6">
                 The engineering and construction of industrial plants and infrastructure projects require a high level
-                of expertise and precision. KA4 Oil And Gas Services, a leading international engineering and
+                of expertise and precision. KA Four Oil And Gas Services, a leading international engineering and
                 industrial services provider, has proven its capability in executing projects through cost-optimised
                 solutions.
               </p>
@@ -380,7 +380,7 @@ export default function SolutionsPage() {
           >
             <h3 className="text-2xl font-serif font-light mb-4">Services & Markets</h3>
             <p className="text-muted-foreground leading-relaxed">
-              KA4 Oil And Gas Services can provide all services related to the different phases of
+              KA Four Oil And Gas Services can provide all services related to the different phases of
               a project from definition until realisation. Different delivery models can be adopted
               depending on project type and customer's requirements. Our customers are in the markets of energy, life science, nuclear, chemical,
               petrochemical, oil and gas, cement, metallurgy and other process industries.
@@ -389,7 +389,7 @@ export default function SolutionsPage() {
         </div>
       </section>
 
-      {/* Section 2: KA4 Maintenance Solutions */}
+      {/* Section 2: KA Four Maintenance Solutions */}
       <section className="py-20 px-6">
         <div className="max-w-6xl mx-auto">
           <div className="grid md:grid-cols-2 gap-12 items-center mb-12">
@@ -414,12 +414,12 @@ export default function SolutionsPage() {
               viewport={{ once: true }}
               className="mb-12"
             >
-              <h2 className="text-4xl md:text-5xl font-serif font-light mb-4">KA4 Maintenance Solutions</h2>
+              <h2 className="text-4xl md:text-5xl font-serif font-light mb-4">KA Four Maintenance Solutions</h2>
               <p className="text-2xl text-muted-foreground font-serif font-light mb-8">
                 We take on the maintenance while you focus on your core business
               </p>
               <p className="text-lg leading-relaxed text-muted-foreground max-w-4xl mb-6">
-                As an industrial service provider with decades of experience, KA4 is your partner for
+                As an industrial service provider with decades of experience, KA Four is your partner for
                 the maintenance of process plants. Our maintenance experts ensure your plants run
                 smoothly, avoid unplanned plant shutdowns and perform turnarounds involving
                 thousands of work steps safely and on time.
@@ -429,7 +429,7 @@ export default function SolutionsPage() {
                 lifecycle, from planning to coordination and execution of all maintenance work
                 to the use of digital solutions in the maintenance of industrial plants. We have put together
                 our knowledge and experience as a maintenance partner for our customers in the
-                KA4 Maintenance Solutions.
+                KA Four Maintenance Solutions.
               </p>
             </motion.div>
           </div>
@@ -475,13 +475,13 @@ export default function SolutionsPage() {
               className="mb-12"
             >
               <p className="text-lg leading-relaxed text-muted-foreground max-w-4xl mb-6">
-                As a leading industrial services provider, KA4 is the preferred choice as maintenance
+                As a leading industrial services provider, KA Four is the preferred choice as maintenance
                 partner for many well-known companies. To ensure that all customers can benefit
                 equally from our services, we have brought together and carefully structured the
                 comprehensive expertise we have gained over the course of several decades.
               </p>
               <p className="text-lg leading-relaxed text-muted-foreground max-w-4xl mb-4">
-                The result is a solution that is unique in the industry: the KA4 Maintenance Solutions.
+                The result is a solution that is unique in the industry: the KA Four Maintenance Solutions.
                 This comprehensive approach is structured in nine modules and is based on the
                 experience and knowledge from more than 400 maintenance analyses. The solution
                 is precisely customised to the individual demands of the client and follows two
@@ -515,7 +515,7 @@ export default function SolutionsPage() {
         </div>
       </section>
 
-      {/* Section 3: KA4 Turnaround Solutions */}
+      {/* Section 3: KA Four Turnaround Solutions */}
       <section className="py-20 px-6 bg-muted/30">
         <div className="max-w-6xl mx-auto">
           <div className="grid md:grid-cols-2 gap-12 items-center">
@@ -540,7 +540,7 @@ export default function SolutionsPage() {
               viewport={{ once: true }}
               className="mb-12"
             >
-              <h2 className="text-4xl md:text-5xl font-serif font-light mb-4">KA4 Turnaround Solutions</h2>
+              <h2 className="text-4xl md:text-5xl font-serif font-light mb-4">KA Four Turnaround Solutions</h2>
               <p className="text-lg leading-relaxed text-muted-foreground max-w-4xl mb-4">
                 Standard procedure in the process industry is to close down plants on a
                 regular basis so that they can be thoroughly checked and improved as part of
@@ -554,7 +554,7 @@ export default function SolutionsPage() {
                   shareholders.</li>
               </ul>
               <p className="text-lg leading-relaxed text-muted-foreground max-w-4xl mb-8">
-                With its KA4 Turnaround Solution , KA4 has developed a methodology that
+                With its KA Four Turnaround Solution , KA Four has developed a methodology that
                 enables plant turnarounds in the process industry to be implemented in an
                 optimal way. The result is a systematic approach allowing turnarounds to be
                 planned and executed at various locations of the respective customer, and
@@ -652,7 +652,7 @@ export default function SolutionsPage() {
                   "Skilled personnel who deliver optimal quality and innovative solutions for complex problems",
                   "Quick and flexible access to a wealth of resources and special tools",
                   "Intelligent digital solutions for an efficient turnaround management",
-                  "Years of experience, compiled and made available for all projects in our KA4 handbook",
+                  "Years of experience, compiled and made available for all projects in our KA Four handbook",
                   "Fewer interfaces thanks to having one major partner",
                   "Customised collaboration models tailored to the customer's individual needs."
                 ].map((item, index) => (
@@ -674,7 +674,7 @@ export default function SolutionsPage() {
         </div>
       </section>
 
-      {/* Section 4: KA4 Engineering Solutions */}
+      {/* Section 4: KA Four Engineering Solutions */}
       <section className="py-20 px-6">
         <div className="max-w-6xl mx-auto">
           <div className="grid md:grid-cols-2 gap-12 items-center">
@@ -699,7 +699,7 @@ export default function SolutionsPage() {
               viewport={{ once: true }}
               className="mb-12"
             >
-              <h2 className="text-4xl md:text-5xl font-serif font-light mb-4">KA4 Engineering Solutions</h2>
+              <h2 className="text-4xl md:text-5xl font-serif font-light mb-4">KA Four Engineering Solutions</h2>
               <p className="text-2xl text-muted-foreground font-serif font-light mb-8">
                 Customers-focused engineering, design and consultancy services throughout the entire lifecycle
               </p>
@@ -775,7 +775,7 @@ export default function SolutionsPage() {
         </div>
       </section>
 
-      {/* Section 5: KA4 ISP Solutions */}
+      {/* Section 5: KA Four ISP Solutions */}
       <section className="py-20 px-6 bg-muted/30">
         <div className="max-w-6xl mx-auto">
           <div className="grid md:grid-cols-2 gap-12 items-center">
@@ -787,10 +787,10 @@ export default function SolutionsPage() {
               className="mb-12"
             >
               <h2 className="text-4xl md:text-5xl font-serif font-light mb-4">
-                KA4 Insulation, Scaffolding & Corrosion Protection
+                KA Four Insulation, Scaffolding & Corrosion Protection
               </h2>
               <p className="text-lg leading-relaxed text-muted-foreground max-w-4xl mb-8">
-                KA4 solutions for access-to-height, insulation, preservation and related services help
+                KA Four solutions for access-to-height, insulation, preservation and related services help
                 leaders in the process industry maximise productivity and minimise downtime. Our
                 multidisciplinary approach ensures safe and efficient services, enabling you to focus
                 your assets and people on core responsibilities.
@@ -844,7 +844,7 @@ export default function SolutionsPage() {
         </div>
       </section>
 
-      {/* Section 6: KA4 Mechanical Solutions */}
+      {/* Section 6: KA Four Mechanical Solutions */}
       <section className="py-20 px-6">
         <div className="max-w-6xl mx-auto">
           <div className="grid md:grid-cols-2 gap-12 items-center">
@@ -869,9 +869,9 @@ export default function SolutionsPage() {
               viewport={{ once: true }}
               className="mb-12"
             >
-              <h2 className="text-4xl md:text-5xl font-serif font-light mb-4">KA4 Mechanical Solutions</h2>
+              <h2 className="text-4xl md:text-5xl font-serif font-light mb-4">KA Four Mechanical Solutions</h2>
               <p className="text-lg leading-relaxed text-muted-foreground max-w-4xl">
-                KA4 supports the energy and process industry by delivering comprehensive mechanical solutions in the following specialist areas:
+                KA Four supports the energy and process industry by delivering comprehensive mechanical solutions in the following specialist areas:
               </p>
               <ul className="list-disc list-inside text-lg leading-relaxed text-muted-foreground max-w-4xl space-y-1 mb-6">
                 <li>Process and detail engineering (mechanical)</li>
@@ -890,7 +890,7 @@ export default function SolutionsPage() {
               <p className="text-lg leading-relaxed text-muted-foreground max-w-4xl mb-6">
                 We work with the most modern design and calculation programs and have our
                 finger on the pulse of the most recent developments in the industry.
-                KA4 looks back on decades of experience in the manufacturing field. Flexible,
+                KA Four looks back on decades of experience in the manufacturing field. Flexible,
                 reliable and with a clear focus on the customer, we are a competent and
                 efficient partner in international plant engineering. With our extensively
                 equipped workshops and flexible working hours, we can ensure our
