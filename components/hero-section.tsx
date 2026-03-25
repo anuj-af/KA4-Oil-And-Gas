@@ -108,7 +108,7 @@ export function HeroSection() {
             </Link>
 
             {/* Download Brochure — visible everywhere & centered on mobile */}
-            <a href="https://drive.google.com/uc?export=download&id=1dZgwOyL2gtG5WAHvIWxLYis7akyUAF7s">
+            <a href="https://drive.google.com/uc?export=download&id=1dcMR4FUNNSuPi9N-J83uYIQfsohQHdAl">
               <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
                 <Button
                   variant="outline"
